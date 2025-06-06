@@ -23,5 +23,8 @@
     };
   };
 
-  home.packages = with pkgs; [ brave ];
+  home.packages = with pkgs; [
+    brave
+    tor-browser
+  ];
 }
